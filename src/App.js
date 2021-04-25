@@ -22,7 +22,7 @@ const DiscordOauth2 = require("discord-oauth2");
 
 function App() {
     const [icon, setIcon] = useState("https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png");
-    const [title, setTitle] = useState("N/A");
+    const [title, setTitle] = useState("Infinity Bots");
 
     axios.get("/.netlify/functions/guild")
         .then((response) => {
