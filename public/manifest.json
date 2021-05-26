@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Infinity Bots | Ban Appeals",
+  "name": "Front and Backend Website for the Infinity Bot List Ban Appeals Site made using React.",
   "icons": [
     {
       "src": "favicon.ico",
