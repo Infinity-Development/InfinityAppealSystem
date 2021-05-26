@@ -47,10 +47,10 @@ class Form extends Component {
     handleSubmit(e) {
         var url = process.env.REACT_APP_WEBHOOK_URL;
         const now = new Date();
-//         let unbanInfo = {
-//             userId: this.state.user.id
-//         };
-//         let unbanUrl = window.location.origin + "/.netlify/functions/unban";
+        let unbanInfo = {
+            userId: this.state.user.id
+         };
+        let unbanUrl = window.location.origin + "/.netlify/functions/unban";
         var embed = [{
             title: "New Ban Appeal Received",
             type: "rich",
@@ -58,12 +58,13 @@ class Form extends Component {
                 name: this.state.user.username,
                 icon_url: this.state.avatar_url
             },
-            description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator})\n` +
-                "**Why were you banned?**\n" + this.state.ban_reason + "\n\n" +
-                "**Why do you feel you should be unbanned?**\n" + this.state.unban_reason + "\n\n" +
-                "**What will you do to avoid being banned in the future?**\n" + this.state.future_behavior + "\n\n ",
-                "**Actions**\n" +
-                `[Approve appeal and unban user](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`,
+            description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator})`,
+           fields(
+		             { name: 'Ban Reason', value: 'Some value here' },
+		             { name: 'Why do you feel you should be unbanned?', value: this.state.unban_reason },
+		             { name: 'What will you do to avoid being banned in the future?', value: this.state.future_behavior, inline: true },
+		             { name: 'Mod Actions', value: `[Approve and Unban](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`, inline: true },
+	             )     
             timestamp: now.toISOString()
         }];
         axios.post(url, {embeds: embed}).then(() => {
