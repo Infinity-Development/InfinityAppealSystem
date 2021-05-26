@@ -64,8 +64,8 @@ class Form extends Component {
 		    { name: 'Why do you feel you should be unbanned?', value: `${this.state.unban_reason}`, inline: true },
 		    { name: 'What will you do to avoid being banned in the future?', value: `${this.state.future_behavior}`, inline: true },
 		    { name: 'Mod Actions', value: `[Approve and Unban](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`, inline: true }
-	         ]     
-            timestamp: now.toISOString()
+	         ],
+		 timestamp: now.toISOString()
         }];
         axios.post(url, {embeds: embed}).then(() => {
             this.setState({success: true})
