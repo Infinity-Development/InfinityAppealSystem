@@ -52,13 +52,13 @@ class Form extends Component {
          };
         let unbanUrl = window.location.origin + "/.netlify/functions/unban";
         var embed = [{
-            title: "New Ban Appeal Received",
+            title: "New Ban Appeal Submitted",
             type: "rich",
             author: {
                 name: this.state.user.username,
                 icon_url: this.state.avatar_url
             },
-            description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator})`,
+            description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator}) has submitted a new Ban Appeal for review.`,
            fields: [
 		    { name: 'Why were you banned?', value: `${this.state.ban_reason}`, inline: true },
 		    { name: 'Why do you feel you should be unbanned?', value: `${this.state.unban_reason}`, inline: true },
@@ -67,6 +67,7 @@ class Form extends Component {
 	         ],
 		 timestamp: now.toISOString()
         }];
+	axios.post(url, '<@!510065483693817867>')    
         axios.post(url, {embeds: embed}).then(() => {
             this.setState({success: true})
         }).catch(alert)
