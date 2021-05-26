@@ -59,12 +59,12 @@ class Form extends Component {
                 icon_url: this.state.avatar_url
             },
             description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator})`,
-           fields(
-                    { name: 'Why were you banned?', value: this.state.ban_reason, inline: true },
-		    { name: 'Why do you feel you should be unbanned?', value: this.state.unban_reason, inline: true },
-		    { name: 'What will you do to avoid being banned in the future?', value: this.state.future_behavior, inline: true },
-		    { name: 'Mod Actions', value: `[Approve and Unban](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`, inline: true },
-	         )     
+           fields[
+		    { name: 'Why were you banned?', value: `${this.state.ban_reason}`, inline: true },
+		    { name: 'Why do you feel you should be unbanned?', value: `${this.state.unban_reason}`, inline: true },
+		    { name: 'What will you do to avoid being banned in the future?', value: `${this.state.future_behavior}`, inline: true },
+		    { name: 'Mod Actions', value: `[Approve and Unban](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`, inline: true }
+	         ]     
             timestamp: now.toISOString()
         }];
         axios.post(url, {embeds: embed}).then(() => {
