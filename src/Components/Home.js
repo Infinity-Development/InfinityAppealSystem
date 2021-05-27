@@ -51,7 +51,7 @@ class Home extends Component {
                     <div className="cus_box">
                       <h1>Fun Fact</h1>
                       <p>
-                          This website is Open-Source, Made with love and available to be Downloaded or Self Hosted from our <a href="https://github.com/InfinityBotList">GitHub Repo</a>
+                          This website is Open-Source, Made with love and available to be Downloaded or Self Hosted from our <a href="https://github.com/InfinityBotList/appeals.botlist.site">GitHub Repo</a>
                       </p>
                     </div>
                 </Grid>
