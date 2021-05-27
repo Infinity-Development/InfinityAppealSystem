@@ -99,21 +99,14 @@ h1 {
 }
 .cus_box {
   word-break: break-all;
+  width: 200px;
   background-color: #23222b;
   padding: 15px;
   border-radius: 10px;
   margin: 12px;
-  margin: 12px;
-  margin: 12px;
-  margin: 12px;
-  margin: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.footer {
-  width: 100%;
-  position: absolute;
-  flex-shrink: 0;
-  text-align: center;
-  background-color: #23222b;
-  color: white;
 }
