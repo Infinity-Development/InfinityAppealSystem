@@ -19,6 +19,7 @@
 <h2>Samples/Screenshots</h2>
 
 - [Live Site](https://appeals.botlist.site)
+- ![Home](https://img.toxicdev.me/ad4bf1.png)
 
 <h2>Self Hosting</h2>
 
