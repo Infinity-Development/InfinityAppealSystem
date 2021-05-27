@@ -20,6 +20,12 @@ class Home extends Component {
                 <Grid item xs={12}>
                     <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Login with Discord</Button>
                 </Grid>
+                <Grid item xs={12}>
+                    <div className="delete_box">
+                      <h4>About this Site</h4>
+                      <p>If you find yourself here, you should be dissapointed in yourself.</p>
+                    </div>
+                </Grid>
             </Grid>
         );
     }
