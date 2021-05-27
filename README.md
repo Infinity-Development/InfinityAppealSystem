@@ -8,4 +8,5 @@
 
 <hr>
 
-<h2> </h2>
+<h2>Available Scripts</h2>
+- `yarn start`
