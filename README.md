@@ -78,7 +78,7 @@ Your app is ready to be deployed! See the section about <a href="https://faceboo
 
 3. `yarn eject`
 
-<p>Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>**Note: this is a one-way operation. Once you <code>eject</code>, you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
