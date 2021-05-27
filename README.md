@@ -8,6 +8,10 @@
 
 <hr>
 
+<h2>Features</h2>
+
+<hr>
+
 <h2>Self Hosting</h2>
 
 - Have a server where you are an administrator.
