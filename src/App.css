@@ -102,7 +102,7 @@ h1 {
   background-color: #23222b;
   padding: 15px;
   border-radius: 10px;
-  min-width: 200px;
+  min-width: 100px;
   max-width: 550px;
   margin: 15px auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
