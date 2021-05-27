@@ -9,8 +9,9 @@
 <hr>
 
 <h2>Available Scripts</h2>
-<p>In the project directory, you can run:</p>
-
-<br> 
-
-- ```yarn start```
+<p>In the project directory, you can run: <code>yarn start</code> Which runs the app in the development mode.
+<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br />
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.</p>
