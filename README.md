@@ -12,6 +12,7 @@
 
 - Custom Embeds and Webhooks sent to a Discord Channel of your Choice using Axios and Discord Webhooks
 - Elegant, Minimalistic Style/UI with Responsive and Real Time Error Pages
+- Ability to Fetch and Unban the user who appealed using the Discord API, Custom Netlify Functions and JWT Tokens
 
 <hr>
 
