@@ -13,6 +13,7 @@ import {Redirect} from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Success from "./Components/Success";
 import Error from "./Components/Error";
+import Footer from "./Components/Footer";
 import PageNotFoundError from "./Components/404";
 import Helmet from "react-helmet";
 const axios = require("axios")
@@ -74,9 +75,7 @@ function App() {
                 </Switch>
             </Grid>
             
-              <footer className="footer">
-                 <p>&copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a> | Made with  by: Toxic Dev</p>
-              </footer>
+           <Footer />
 
         </Router>
     );
