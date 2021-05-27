@@ -77,7 +77,7 @@ function App() {
             </Grid>
             
               <footer className="footer">
-                 <p>&copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a></p>
+                 <p>&copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a> | Made with  by: Toxic Dev</p>
               </footer>
 
         </Router>
