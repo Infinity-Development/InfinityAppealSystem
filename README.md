@@ -49,6 +49,16 @@ REACT_APP_SKIP_BAN_CHECK= // Optional, skips the check that only allows submissi
 
 <hr>
 
+<h2> Self-hosting Agreement </h2>
+
+- You may not use the Infinity Bots logo or name.
+- You may not host a public/open-source version of the site.
+- You may not charge for the usage of your instance of this site.
+- You may not provide support for Infinity Bots or our Banned Users.
+- You may not remove any credits to the original author anywhere within this code. We know what code we've written, and we will recognize it.
+
+<hr>
+
 <h2>Available Scripts</h2>
 <p>In the project directory, you can <bold>run:</bold></p>
 
