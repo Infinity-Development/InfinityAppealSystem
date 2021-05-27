@@ -7,7 +7,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Infinity Bots Ban Appeals</h5>
+            <h5 className="title">Infinity Bot List</h5>
             <p>
               Appeal a Ban from our Official <a href="https://infinitybotlist.com/join">Discord Server</a>.
             </p>
@@ -47,7 +47,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a>
         </MDBContainer>
       </div>
     </MDBFooter>
