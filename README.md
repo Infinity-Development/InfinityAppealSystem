@@ -11,6 +11,7 @@
 <h2>Features</h2>
 
 - Custom Embeds and Webhooks sent to a Discord Channel of your Choice using Axios and Discord Webhooks
+- Elegant, Minimalistic Style/UI with Responsive and Real Time Error Pages
 
 <hr>
 
