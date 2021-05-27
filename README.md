@@ -54,7 +54,7 @@ REACT_APP_SKIP_BAN_CHECK= // Optional, skips the check that only allows submissi
 
 <h2> Self-hosting Agreement </h2>
 
-- You may not use the Infinity Bots logo or name.
+- You may not use the Infinity Bots or Infinity Bot List logo or name.
 - You may not host a public/open-source version of the site.
 - You may not charge for the usage of your instance of this site.
 - You may not provide support for Infinity Bots or our Banned Users.
