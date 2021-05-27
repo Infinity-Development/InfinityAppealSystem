@@ -74,6 +74,8 @@ function App() {
                 </Switch>
             </Grid>
             
+            <br /><br /><br />
+            
             <footer>
             <p>&copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a> | Made with ❤️️ by: <a href="https://toxicdev.me"> Toxic Dev </a></p>
             </footer>
