@@ -8,6 +8,17 @@
 
 <hr>
 
+<h2>Self Hosting</h2>
+- Have a server where you are an administrator.
+- Have a custom bot inside this server. You can register/invte one [here](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
+- Create a #ban-appeals channel (name can be whatever you want) and create a new webhook integration for that channel.
+- Fork this repo
+- Register an account with [Netlify](https://www.netlify.com/)
+- Add your forked repo as a build target
+- Fill out the environment variables under Settings > Environment (see .env.example for all the required/optional variables)
+
+<hr>
+
 <h2>Available Scripts</h2>
 <p>In the project directory, you can <bold>run:</bold></p>
 
