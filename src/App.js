@@ -52,8 +52,6 @@ function App() {
                          className={"banner"}>
                         <img alt={title + " Discord Icon"} src={icon} className={"icon"} height={150}/>
                         <h1>Infinity Bots Ban Appeal System</h1>
-                        <br />
-                        <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Login with Discord</Button>
                     </Box>
                 </Grid>
                 <Switch>
