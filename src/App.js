@@ -73,6 +73,10 @@ function App() {
 
                 </Switch>
             </Grid>
+            
+              <footer className="footer">
+                 <p>&copy; {new Date().getFullYear()} Copyright: <a href="https://infinitybotlist.com"> Infinity Bot List </a></p>
+              </footer>
 
         </Router>
     );
