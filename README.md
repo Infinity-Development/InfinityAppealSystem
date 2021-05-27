@@ -20,6 +20,10 @@
 
 - [Live Site](https://appeals.botlist.site)
 - ![Home](https://img.toxicdev.me/ad4bf1.png)
+- ![Form](https://img.toxicdev.me/3b1717.png)
+- ![Success](https://img.toxicdev.me/b17704.png)
+- ![Webhooks](https://img.toxicdev.me/6ded06.png)
+- ![Unban API](https://img.toxicdev.me/f63199.png)  
 
 <h2>Self Hosting</h2>
 
