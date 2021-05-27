@@ -10,6 +10,8 @@
 
 <h2>Features</h2>
 
+- Custom Embeds and Webhooks sent to a Discord Channel of your Choice using Axios and Discord Webhooks
+
 <hr>
 
 <h2>Self Hosting</h2>
