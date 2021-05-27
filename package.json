@@ -2,6 +2,7 @@
   "name": "infinity-appeals",
   "version": "1.0.0",
   "private": true,
+  "author": "TheRealToxicDev <toxic@infinitybotlist.com> (https://toxicdev.me)"
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@mdi/js": "^5.5.55",
