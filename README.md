@@ -10,5 +10,7 @@
 
 <h2>Available Scripts</h2>
 <p>In the project directory, you can run:</p>
+
 <br> 
+
 - ```yarn start```
