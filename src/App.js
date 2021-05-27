@@ -74,8 +74,6 @@ function App() {
 
                 </Switch>
             </Grid>
-            
-           <Footer />
 
         </Router>
     );
