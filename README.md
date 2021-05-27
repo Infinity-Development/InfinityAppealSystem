@@ -38,5 +38,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 <hr>
 
 <h2>Learn More</h2>
-<p>You can learn more in the `Create React App` <a href="https://facebook.github.io/create-react-app/docs/getting-started">Docs</a>.
+<p>You can learn more in the <code>Create React App</code> <a href="https://facebook.github.io/create-react-app/docs/getting-started">Docs</a>.
 To learn React, check out the <a href="https://reactjs.org/">React Docs</a>.</p>
