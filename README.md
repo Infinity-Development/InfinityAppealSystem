@@ -3,7 +3,7 @@
   <br> 
   Infinity Bot List Ban Appeals System </h1>
 <p align="center">
- Custom React Site made using Axios and the Discord API to provide a Real-Time Ban Monitoring and Appeals System.
+ Custom React Site made using Axios and the Discord API to provide a Real-Time Ban Monitoring and Appeals System. Inspired By: <a href="https://github.com/sylveon/discord-ban-appeals">sylveon</a>
 </p>
 
 <hr>
