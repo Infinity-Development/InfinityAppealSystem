@@ -9,7 +9,7 @@
 <hr>
 
 <h2>Available Scripts</h2>
-<p>In the project directory, you can run:</p>
+<p>In the project directory, you can <bold>run:</bold></p>
 
 1. `yarn start` 
 
