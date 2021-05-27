@@ -97,8 +97,7 @@ form button {
 h1 {
   width: 100%;
 }
-.delete_box {
-  width: 450px;
+.cus_box {
   word-break: break-all;
   background-color: #23222b;
   padding: 15px;
