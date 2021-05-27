@@ -18,6 +18,9 @@ class Home extends Component {
         return (
             <Grid container alignItems={"center"} justify="center" direction="column">
                 <Grid item xs={12}>
+                    <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Login with Discord</Button>
+                </Grid>
+                <Grid item xs={12}>
                     <div className="cus_box">
                       <h1>Hello There, Welcome</h1>
                       <p>
