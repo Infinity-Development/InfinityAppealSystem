@@ -20,24 +20,31 @@ class Home extends Component {
                 <Grid item xs={12}>
                     <div className="cus_box">
                       <h1>Hello There, Welcome</h1>
-                      <p>If you find yourself browsing or using this site, you should be dissapointed. Here at Infinity we strive in providing our users a safe, curtious, drama free community and only ask that you follow a few simple <a href=""> rules </a>.</p>
+                      <p>
+                          If you find yourself browsing or using this site, you should be dissapointed. 
+                          Here at Infinity we strive in providing our users a safe, curtious, drama free community and only ask that you follow a few simple <a href="https://docs.botlist.site/server/rules/"> rules. 
+                          You have clearly done something to violate them or piss us off </a>.
+                      </p>
                     </div>
                     <div className="cus_box">
                       <h1>What can i do?</h1>
-                      <p>If you find yourself here, you should be dissapointed. Here at Infinity we strive in providing our users a safe, curtious, drama free community and you obviously did something to violate our rules or generally piss us off.</p>
+                      <p>
+                          You may appeal your ban by logging in using the button below and filling out the form provided which will then be sent to our staff for review.
+                          Our Staff may approve or deny your ban appeal based on your actions and reason for ban and how much it may or may not have an effect on our community.
+                          We do not guarantee that your ban appeal will be approved and your ban be lifted if you feel you have been banned for an unjust cause please <a href="support@infinitybotlist.com">Contact Us</a>
+                      </p>
                     </div>
                     <div className="cus_box">
                       <h1>Useful Info</h1>
                       <p>
-                          1. 
+                          1. Abuse of this system will result in a Permanent Ban
                       <br />
-                          2.
+                          2. DO NOT Spam or Harass our Staff about your Appeal Request
+                      <br />
+                          3. Appeals will be handled in the order which they are recieved.
                       <br />
                       </p>
                     </div>
-                </Grid>
-                <Grid item xs={12}>
-                    <Button startIcon={<Icon size={1} path={mdiDiscord}/>} href={url} size={"large"} className={"button"}>Login with Discord</Button>
                 </Grid>
             </Grid>
         );
