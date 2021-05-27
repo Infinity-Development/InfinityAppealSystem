@@ -5,8 +5,12 @@ class Success extends Component {
     render() {
         return (
             <Grid item>
-                <h1 style={{textAlign: "center", color: "#00e676"}}>Success! Your ban appeal has been submitted to the mods!</h1>
-                <h4>Please allow some time for them to review your appeal. Abusing this system will result in a perma-ban.</h4>
+               <div className="cus_box">
+                  <h1>Success, Ban Appeal Submitted!</h1>
+                  <p>
+                     Please allow some time for our staff to review your appeal request. Abusing this system or spamming their DMs will result in a perma-ban.
+                  </p>
+               </div>
             </Grid>
         );
     }
