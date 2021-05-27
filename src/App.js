@@ -48,7 +48,7 @@ function App() {
                   alignItems="center"
             >
                 <Grid item xs={12}>
-                    <Box style={{backgroundImage: `url(${process.env.REACT_APP_BANNER_URL})`}}
+                    <Box style={{backgroundImage: `url(${process.env.REACT_APP_BANNER_URL})`, backgroundColor: '#23222b'}}
                          className={"banner"}>
                         <img alt={title + " Discord Icon"} src={icon} className={"icon"} height={150}/>
                         <h1>Infinity Bots Ban Appeal System</h1>
