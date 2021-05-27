@@ -9,6 +9,7 @@
 <hr>
 
 <h2>Self Hosting</h2>
+
 - Have a server where you are an administrator.
 - Have a custom bot inside this server. You can register/invte one [here](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
 - Create a #ban-appeals channel (name can be whatever you want) and create a new webhook integration for that channel.
