@@ -6,6 +6,9 @@
  Custom React Site made using Axios and the Discord API to provide a Real-Time Ban Monitoring and Appeals System. Inspired By: <a href="https://github.com/sylveon/discord-ban-appeals">sylveon</a>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2da51b3-4cbb-4c3c-9e81-48ff2a9e8501/deploy-status)](https://app.netlify.com/sites/practical-keller-e067b0/deploys)
+
+
 <hr>
 
 <h2>Features</h2>
